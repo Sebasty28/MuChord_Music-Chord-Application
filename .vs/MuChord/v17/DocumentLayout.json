@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\MuChord - Music Chord Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4B8B20-D8D4-4125-9E90-5AF5A8D73A67}|MuChord - Music Chord Application\\MuChord.csproj|c:\\users\\admin\\source\\repos\\muchord - music chord application\\muchord - music chord application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4B8B20-D8D4-4125-9E90-5AF5A8D73A67}|MuChord - Music Chord Application\\MuChord.csproj|solutionrelative:muchord - music chord application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33859891-CBDE-4ABD-B91E-C10A78C20B01}|MuChor_BusinessDataLogic\\MuChord_BusinessDataLogic.csproj|c:\\users\\admin\\source\\repos\\muchord - music chord application\\muchor_businessdatalogic\\chord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33859891-CBDE-4ABD-B91E-C10A78C20B01}|MuChor_BusinessDataLogic\\MuChord_BusinessDataLogic.csproj|solutionrelative:muchor_businessdatalogic\\chord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33859891-CBDE-4ABD-B91E-C10A78C20B01}|MuChor_BusinessDataLogic\\MuChord_BusinessDataLogic.csproj|c:\\users\\admin\\source\\repos\\muchord - music chord application\\muchor_businessdatalogic\\chordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33859891-CBDE-4ABD-B91E-C10A78C20B01}|MuChor_BusinessDataLogic\\MuChord_BusinessDataLogic.csproj|solutionrelative:muchor_businessdatalogic\\chordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chord.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MuChord - Music Chord Application\\MuChor_BusinessDataLogic\\Chord.cs",
+              "RelativeDocumentMoniker": "MuChor_BusinessDataLogic\\Chord.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MuChord - Music Chord Application\\MuChor_BusinessDataLogic\\Chord.cs",
+              "RelativeToolTip": "MuChor_BusinessDataLogic\\Chord.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:01:03.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChordManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MuChord - Music Chord Application\\MuChor_BusinessDataLogic\\ChordManager.cs",
+              "RelativeDocumentMoniker": "MuChor_BusinessDataLogic\\ChordManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MuChord - Music Chord Application\\MuChor_BusinessDataLogic\\ChordManager.cs",
+              "RelativeToolTip": "MuChor_BusinessDataLogic\\ChordManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:59:04.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MuChord - Music Chord Application\\MuChord - Music Chord Application\\Program.cs",
+              "RelativeDocumentMoniker": "MuChord - Music Chord Application\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MuChord - Music Chord Application\\MuChord - Music Chord Application\\Program.cs",
+              "RelativeToolTip": "MuChord - Music Chord Application\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:55:54.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

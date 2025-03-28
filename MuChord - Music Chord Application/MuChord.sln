@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuChord", "MuChord - Music Chord Application\MuChord.csproj", "{5E4B8B20-D8D4-4125-9E90-5AF5A8D73A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuChord_BusinessDataLogic", "MuChor_BusinessDataLogic\MuChord_BusinessDataLogic.csproj", "{33859891-CBDE-4ABD-B91E-C10A78C20B01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E4B8B20-D8D4-4125-9E90-5AF5A8D73A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4B8B20-D8D4-4125-9E90-5AF5A8D73A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4B8B20-D8D4-4125-9E90-5AF5A8D73A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4B8B20-D8D4-4125-9E90-5AF5A8D73A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33859891-CBDE-4ABD-B91E-C10A78C20B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33859891-CBDE-4ABD-B91E-C10A78C20B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33859891-CBDE-4ABD-B91E-C10A78C20B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33859891-CBDE-4ABD-B91E-C10A78C20B01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7969762-971B-420E-8B95-081B5628D186}
+	EndGlobalSection
+EndGlobal
