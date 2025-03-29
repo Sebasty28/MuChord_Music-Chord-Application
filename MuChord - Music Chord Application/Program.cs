@@ -5,7 +5,7 @@ namespace MuChord
     {
         static ChordManager chordManager = new ChordManager();
 
-        public static string[] guidelines = 
+        public static string[] guidelines =
         {
             "Select an option from the menu below:\n",
             "[1] Add Chord",
@@ -38,16 +38,16 @@ namespace MuChord
                 switch (userChoice)
                 {
                     case 1:
-                        AddChordFromInput();
+                        AddChord();
                         break;
                     case 2:
-                        EditChordFromInput();
+                        EditChord();
                         break;
                     case 3:
-                        SearchChordFromInput();
+                        SearchChord();
                         break;
                     case 4:
-                        DeleteChordFromInput();
+                        DeleteChord();
                         break;
                     case 5:
                         ViewAllChords();
@@ -60,68 +60,55 @@ namespace MuChord
             }
         }
 
-        static void AddChordFromInput()
+        static void AddChord()
         {
-            string name, type, notes;
-            do 
-            { Console.Write("Enter Chord Name: "); 
-                name = Console.ReadLine().Trim(); 
-            } while (string.IsNullOrEmpty(name));
+            Console.Write("Enter Chord Name: ");
+            string name = Console.ReadLine();
 
-            do 
-            { Console.Write("Enter Chord Type: "); 
-                type = Console.ReadLine().Trim(); 
-            } while (string.IsNullOrEmpty(type));
+            Console.Write("Enter Chord Type (Major/Minor): ");
+            string type = Console.ReadLine();
 
-            do 
-            { Console.Write("Enter Chord Notes/Diagram: "); 
-                notes = Console.ReadLine().Trim(); } 
-            while (string.IsNullOrEmpty(notes));
+            string notes = ChordManager.GetChordDiagram(name, type);
 
             chordManager.AddChord(name, type, notes);
-            Console.WriteLine("Chord Added Successfully!\n");
+            Console.WriteLine("Chord added successfully!\n");
         }
 
-        static void EditChordFromInput()
+        static void EditChord()
         {
-            Console.Write("Enter the Chord Name to Edit: ");
-            string name = Console.ReadLine().Trim();
+            Console.Write("Enter Chord Name to Edit: ");
+            string name = Console.ReadLine();
 
-            Console.Write("Update Chord Notes/Diagram: ");
-            string newNotes = Console.ReadLine().Trim();
+            Console.Write("Enter New Chord Notes: ");
+            string newNotes = Console.ReadLine();
 
             if (chordManager.EditChord(name, newNotes))
-                Console.WriteLine("Chord Updated Successfully!\n");
+                Console.WriteLine("Chord updated successfully!\n");
             else
                 Console.WriteLine("Chord not found!\n");
         }
 
-        static void SearchChordFromInput()
+        static void SearchChord()
         {
             Console.Write("Enter Chord Name to Search: ");
-            string name = Console.ReadLine().Trim();
+            string name = Console.ReadLine();
             Console.WriteLine(chordManager.GetChordInfo(name));
         }
 
-        static void DeleteChordFromInput()
+        static void DeleteChord()
         {
-            Console.Write("Enter the Chord Name to Delete: ");
-            string name = Console.ReadLine().Trim();
+            Console.Write("Enter Chord Name to Delete: ");
+            string name = Console.ReadLine();
 
-            Console.Write("Are you sure you want to delete this chord? (yes/no): ");
-            string confirmation = Console.ReadLine().ToLower();
-
-            if (confirmation == "yes" && chordManager.DeleteChord(name))
-                Console.WriteLine("Chord Deleted Successfully!\n");
+            if (chordManager.DeleteChord(name))
+                Console.WriteLine("Chord deleted successfully!\n");
             else
-                Console.WriteLine("Deletion canceled or chord not found!\n");
+                Console.WriteLine("Chord not found or could not be deleted!\n");
         }
 
         static void ViewAllChords()
         {
             Console.WriteLine(chordManager.GetAllChords());
         }
- 
     }
 }
-   

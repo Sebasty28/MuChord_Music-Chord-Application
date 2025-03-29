@@ -8,15 +8,16 @@ namespace MuChor_BusinessDataLogic
 {
     public class Chord
     {
-        public string Name { get; set; }
-        public string Type { get; set; }
-        public string Notes { get; set; }
+        public string name;
+        public string type;
+        public string notes;
 
-        public Chord(string name, string type, string notes)
+        public Chord(string n, string t, string nts)
         {
-            Name = name;
-            Type = type;
-            Notes = notes;
+            name = n;
+            type = t;
+            notes = nts;
+
         }
     }
 }
