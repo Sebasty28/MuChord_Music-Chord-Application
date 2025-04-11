@@ -1,15 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>MuChord___Music_Chord_Application</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MuChor_BusinessDataLogic\MuChord_BL.csproj" />
+    <ProjectReference Include="..\MuChord_DL\MuChord_DL.csproj" />
   </ItemGroup>
 
 </Project>
